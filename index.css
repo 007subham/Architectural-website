@@ -1,0 +1,22 @@
+.home{
+    background-image:linear-gradient(to bottom,  rgba(20, 62, 252, 0.479), rgba(65, 62, 62, 0)),url(/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+}
+#navbar {
+    
+    margin:  0px -16px;
+    transition: all 0.5s;
+    
+  }
+  .sticky {
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transform: scale(1.1);
+    background-color: rgba(12, 0, 0, 0.605);
+  }
